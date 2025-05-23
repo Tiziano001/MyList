@@ -1,0 +1,64 @@
+body{
+    text-align: center;
+    margin-top: 100px;
+    background-color: aquamarine;
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border-color: brown;
+    background-color: antiquewhite;
+    box-shadow: 10px 5px 5px brown;
+}
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+    border-color: brown;
+    background-color: bisque;
+    transition: all 0.3s ease;
+    box-shadow: 10px 5px 5px burlywood;
+    cursor: pointer;
+}
+button:hover{
+    background-color: lightcoral;
+    transform: scale(1.2);
+}
+
+@font-face {
+    font-family: 'pixel';
+    src: url('/fonts/pixel.ttf') format('truetype');
+}
+
+h1{
+    font-family: 'pixel';/*'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+    color: brown;
+    font-size: 30px; 
+}
+
+
+
+ul{
+    list-style-position: inside;
+    list-style-image: url("/images/groundyThingy.png");
+}
+
+#clearAll{
+    margin-top: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: aliceblue;
+    box-shadow: 10px 5px 5px skyblue;
+    transition: all 0.3s ease;
+}
+
+#clearAll:hover{
+    background-color: aqua;
+    transform: scale(1.2);
+}
+
+.fader {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+}
