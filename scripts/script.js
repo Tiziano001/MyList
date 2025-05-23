@@ -1,5 +1,5 @@
 const form = document.getElementById("adding");
-const sound = new Audio('/sounds/pop.mp3');
+const sound = new Audio('sounds/pop.mp3');
 
 function handleEvent(event){
     event.preventDefault();
@@ -24,7 +24,7 @@ function handleEvent(event){
 }
 
 const clearButton = document.getElementById("clearAll");
-const sound2 = new Audio('/sounds/woosh.mp3');
+const sound2 = new Audio('sounds/woosh.mp3');
 
 function clearer(){
     const list = document.getElementById("added");

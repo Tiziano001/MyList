@@ -28,7 +28,7 @@ button:hover{
 
 @font-face {
     font-family: 'pixel';
-    src: url('/fonts/pixel.ttf') format('truetype');
+    src: url('../fonts/pixel.ttf') format('truetype');
 }
 
 h1{
@@ -41,7 +41,7 @@ h1{
 
 ul{
     list-style-position: inside;
-    list-style-image: url("/images/groundyThingy.png");
+    list-style-image: url("../images/groundyThingy.png");
 }
 
 #clearAll{
